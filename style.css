@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Oswald&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #b4d5ff92;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8vh 15vw;
+}
+
+header div img {
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    border: 5px solid #0e5168;
+    border-radius: 50%;
+}
+
+header div h1 {
+    font-size: 3.2vw;
+}
+
+header div h2 {
+    text-align: end;
+    font-size: 1vw;
+    margin: 10px 0px;
+}
+
+.container {
+    margin: 0px 15vw;
+}
+
+.container h1 {
+    font-size: 2.2vw;
+    margin: 12px 0px;
+}
+
+.container p {
+    font-size: 1.4vw;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0px;
+}
+
+.container ul {
+    font-size: 1.7vw;
+    font-weight: 600;
+    list-style: decimal;
+}
+
+.container ul li {
+    font-size: 1.2vw;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container ul li ul {
+    list-style: square;
+    margin-left: 1.8vw;
+}
+
+.container ul li ul li {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+    margin: 5px 0px;
+}
+a{
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+@media (max-width:875px) {
+    header div h1 {
+        font-size: 4vw;
+    }
+    
+    header div h2 {
+        font-size: 1.8vw;
+        margin: 10px 0px;
+    }
+    
+.container h1 {
+    font-size: 3vw;
+}
+
+.container p {
+    font-size: 2.2vw;
+    letter-spacing: 0.4px;
+}
+
+.container ul {
+    font-size: 3vw;
+}
+
+.container ul li {
+    font-size: 2vw;
+}
+
+.container ul li ul li {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.6vw;
+    margin: 5px 0px;
+}
+a{
+    font-size: 1.4vw;
+}
+}
+@media (max-width:700px) {
+    header div h1 {
+        font-size: 5.2vw;
+    }
+    
+    header div h2 {
+        font-size: 2.8vw;
+        margin: 10px 0px;
+    }
+    
+header {
+    margin: 2vh 15vw;
+}
+.container h1 {
+    font-size: 4.8vw;
+}
+
+.container p {
+    font-size: 3.2vw;
+    letter-spacing: 0.4px;
+}
+
+.container ul {
+    font-size: 4.8vw;
+}
+
+.container ul li {
+    font-size: 3.2vw;
+}
+
+.container ul li ul li {
+
+    font-size: 2.6vw;
+    margin: 5px 0px;
+}
+a{
+    font-size: 2.6vw;
+}
+}
